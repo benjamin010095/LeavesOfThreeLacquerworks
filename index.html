@@ -8,6 +8,25 @@
   <link rel="icon" href="images/LeavesOfThreeLacquerLogo.png" type="image/png">
   <link rel="stylesheet" href="style/style.css">
 </head>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var overlay = document.getElementById('overlay');
+      overlay.style.animation = 'fadeIn 1s forwards';
+      overlay.addEventListener('click', function() {
+        overlay.style.animation = 'slideUp 2s forwards';
+        overlay.addEventListener('animationend', function() {
+          overlay.style.display = 'none';
+        });
+      });
+  });
+</script>
+<div id="overlay">
+  <div class="overlay-content">
+    <h1>Leaves of Three <br/>Lacquerworks</h1>
+    <img src="images/LeavesOfThreeLacquerLogo.png" alt="LeavesOfThreeLacquerLogo Icon" class="logo">
+  </div>
+</div>
+
 <body>
   <nav>
     <div class="nav-logo">
