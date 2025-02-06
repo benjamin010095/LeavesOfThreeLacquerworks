@@ -22,11 +22,11 @@
     
   }
   .nav-item {
-    margin: 0 1em;
+    margin: 0 1vw;
     display: inline-flex; 
     align-items: center; 
     justify-content: center;
-    padding: .5em 2em; 
+    padding: .5em 2vw; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: inherit;
     height: 2.5em;
@@ -49,8 +49,7 @@
   }
 
   .logo{
-    width: 3.5em;
-    height: 3.5em;
+    width: 3.5vw;
   }
   
   .nav-item:hover {
@@ -72,7 +71,7 @@
   
   footer {
     text-align: center;
-    padding: 1em;
+    padding: 1vw;
     background-color: var(--color-3);
     position: fixed;
     bottom: 0;
@@ -102,10 +101,9 @@
     color: white;
   }
   .overlay-content img {
-    width: 10em;
-    height: 10em;
+    width: 300px;
   }
-  /* Animation to pull up the overlay */
+
   @keyframes slideUp {
     0% {
       transform: translateY(0);
